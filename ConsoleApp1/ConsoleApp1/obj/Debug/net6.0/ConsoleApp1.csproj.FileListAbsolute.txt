@@ -1,0 +1,180 @@
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Compute.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Core.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Graphics.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Input.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Mathematics.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.OpenAL.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Common.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Desktop.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\libglfw.so.3.3
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\libglfw.3.dylib
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\glfw3.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x86\native\glfw3.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.pdb
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+D:\Kuliah\SEM4\1-1330-GrafKom\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Compute.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Core.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Graphics.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Input.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Mathematics.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.OpenAL.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Common.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Desktop.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\libglfw.so.3.3
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.pdb
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Loyal Core\Downloads\Projek_Grafkom (extract.me)\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Compute.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Core.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Graphics.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Input.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Mathematics.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.OpenAL.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Common.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Desktop.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\libglfw.so.3.3
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.pdb
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Loyal Core\source\repos\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Compute.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Core.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Graphics.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Input.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Mathematics.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.OpenAL.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Common.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Desktop.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\libglfw.so.3.3
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.pdb
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Elroy\Downloads\Project1\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Compute.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Core.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Graphics.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Input.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Mathematics.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.OpenAL.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Common.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.Desktop.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\linux-x64\native\libglfw.so.3.3
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\LearnOpenTK.Common.pdb
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Loyal Core\source\repos\Project 1 combine\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
