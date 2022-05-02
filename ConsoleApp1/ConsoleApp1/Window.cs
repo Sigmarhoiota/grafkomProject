@@ -20,7 +20,7 @@ namespace Console1
     {
         Shader _shader;
         List<Asset_3D> _object = new List<Asset_3D>();
-        Asset_3D[] _object3d = new Asset_3D[21];
+        Asset_3D[] _object3d = new Asset_3D[50];
         Camera _camera;
         bool _firstMove = true;
         Vector2 _lastposition;
@@ -324,8 +324,32 @@ namespace Console1
 
             _object3d[20].Bezier(5);
 
-
             //_object3d[20] = new Asset_3D(new Vector3(1f, 0f, 0f)); //X mark
+
+
+            //Gary
+            _object3d[21]= new Asset_3D(new Vector3(1f, 0.5f, 0.54f));
+            _object3d[21].createEllipsoid(2f, 3f, 2.5f, 28f, -8.5f, -.8f, 72, 24); //cangkang
+            _object3d[21].rotate(_object3d[21]._centerPosition, _object3d[0]._euler[0], 180f);
+            _object3d[22] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
+            _object3d[22].createEllipsoid2(2f, 4f, 1f, 28f, 0.0f, 9f, 72, 24); //badan
+            _object3d[22].rotate(_object3d[22]._centerPosition, _object3d[0]._euler[0], 90f);
+            _object3d[23] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
+            _object3d[23].createEllipsoid2(0.2f, 1f, 0.2f, 27.5f, -8f, 3f, 72, 24); //batang mata kiri
+            _object3d[24] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
+            _object3d[24].createEllipsoid2(0.2f, 1f, 0.2f, 28.5f, -8f, 3f, 72, 24); //batang mata kanan
+            _object3d[25] = new Asset_3D(new Vector3(1f, 1f, 1f));
+            _object3d[25].createEllipsoid2(0.5f, 0.5f, 0.5f, 28.5f, -7f, 3f, 72, 24); //mata kanan
+            _object3d[26] = new Asset_3D(new Vector3(1f, 1f, 1f));
+            _object3d[26].createEllipsoid2(0.5f, 0.5f, 0.5f, 27.5f, -7f, 3f, 72, 24); //mata kiri
+            _object3d[27] = new Asset_3D(new Vector3(0f, 0f, 0f));
+            _object3d[27].createEllipsoid2(0.2f, 0.2f, 0.2f, 28.5f, -7f, 3.4f, 72, 24); //dalam mata kanan
+            _object3d[28] = new Asset_3D(new Vector3(0f, 0f, 0f));
+            _object3d[28].createEllipsoid2(0.2f, 0.2f, 0.2f, 27.5f, -7f, 3.4f, 72, 24); //dalam mata kiri
+
+
+
+
 
 
 
@@ -338,7 +362,7 @@ namespace Console1
                 i.OnLoad(Warna.col + "shader.vert", Warna.col + "shader.frag", Size.X, Size.Y);
             }
             _object3d[0].OnLoad(Warna.col + "shader.vert", Warna.col + "shader.frag", Size.X, Size.Y);
-            for (var i=1; i<_object3d.Length; i++)
+            for (var i=1; i<29; i++)
             {
                 _object3d[i].OnLoad(Warna.col + "shader1.vert", Warna.col + "shader.frag", Size.X, Size.Y);
             }
@@ -362,7 +386,7 @@ namespace Console1
             _object[2].OnRender(1, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
             _object[3].OnRender(1, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
 
-            for (var i=0; i<_object3d.Length; i++)
+            for (var i=0; i<29; i++)
             {
                 if (i == 6)
                 {
@@ -488,26 +512,27 @@ namespace Console1
 
             if (counterR < 8000 && !pauseP)
             {
-                _object3d[0].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[1].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[2].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[3].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[4].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[5].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[6].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[7].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[8].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[9].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[10].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[11].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[12].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[13].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[14].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[15].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[16].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[17].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[19].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[20].rotate(new Vector3(-0.2f, 0.09f, 0.1f), _object3d[18]._euler[2], 0.01f);
+                
+                _object3d[0].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[1].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[2].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[3].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[4].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[5].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[6].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[7].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[8].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[9].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[10].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[11].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[12].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[13].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[14].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[15].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[16].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[17].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[19].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                _object3d[20].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
 
                 counterR++;
             };
@@ -706,6 +731,10 @@ namespace Console1
                 {
                     counterP -= 1;
                 }
+                for (int i = 21; i <= 28; i++)
+                {
+                    _object3d[i].translate(0, 0, 0.01f);
+                }
 
                 _object[1].translate(0, 0, 0.002f);
             }
@@ -746,16 +775,29 @@ namespace Console1
                 {
                     counterP -= 1;
                 }
+                for (int i = 21; i <= 28; i++)
+                {
+                    _object3d[i].translate(0, 0, -0.01f);
+                }
 
                 _object[1].translate(0, 0, -0.002f);
             }
             if (KeyboardState.IsKeyDown(Keys.Left))
             {
                 _object[0].translate(-0.01f, 0, 0);
+
+                for(int i = 21; i <= 28; i++)
+                {
+                    _object3d[i].translate(-0.01f, 0, 0);
+                }
             }
             if (KeyboardState.IsKeyDown(Keys.Right))
             {
                 _object[0].translate(0.01f, 0, 0);
+                for (int i = 21; i <= 28; i++)
+                {
+                    _object3d[i].translate(0.01f, 0, 0);
+                }
             }
             
             var mouse = MouseState;
