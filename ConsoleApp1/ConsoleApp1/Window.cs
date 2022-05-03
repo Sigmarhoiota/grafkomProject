@@ -70,59 +70,59 @@ namespace Console1
             var outlinehidung2 = new Asset_3D(new Vector3(0, 0, 0));
 
 
-            kubus.createCuboid(10, 0, 0, 1, 0.5f, 1.5f);
-            badan.createCuboid(10, -1.1f, 0, 2f, 2.75f, 1.5f);
-            tangankanan.createCuboid(-2f, -11.5f, 0, 2, 0.5f, 0.5f);
+            kubus.createCuboid(45, 0, 0, 1, 0.5f, 1.5f);
+            badan.createCuboid(45, -1.1f, 0, 2f, 2.75f, 1.5f);
+            tangankanan.createCuboid(-2f, -46.5f, 0, 2, 0.5f, 0.5f);
             tangankanan.rotate(badan._centerPosition, tangankanan._euler[2], 90f);
-            tangankiri.createCuboid(-2f, -8.5f, 0, 2, 0.5f, 0.5f);
+            tangankiri.createCuboid(-2f, -43.5f, 0, 2, 0.5f, 0.5f);
             tangankiri.rotate(badan._centerPosition, tangankiri._euler[2], 90f);
-            bahukanan.createCone(-11.5f, 0.6f, 0, 0.5f, 0.5f, 0.5f, 72, 24);
+            bahukanan.createCone(-46.5f, 0.6f, 0, 0.5f, 0.5f, 0.5f, 72, 24);
             bahukanan.rotate(badan._centerPosition, bahukanan._euler[2], 180f);
-            bahukiri.createCone(-8.5f, 0.6f, 0, 0.5f, 0.5f, 0.5f, 72, 24);
+            bahukiri.createCone(-43.5f, 0.6f, 0, 0.5f, 0.5f, 0.5f, 72, 24);
             bahukiri.rotate(badan._centerPosition, bahukiri._euler[2], 180f);
-            matakanan.createEllipsoid(0.3f, 0.3f, 0.5f, 10.4f, -0.75f, -0.5f, 72, 24);
+            matakanan.createEllipsoid(0.3f, 0.3f, 0.5f, 45.4f, -0.75f, -0.5f, 72, 24);
             matakanan.rotate(badan._centerPosition, matakanan._euler[0], 270f);
-            matakiri.createEllipsoid(0.3f, 0.3f, 0.5f, 9.6f, -0.75f, -0.5f, 72, 24);
+            matakiri.createEllipsoid(0.3f, 0.3f, 0.5f, 44.6f, -0.75f, -0.5f, 72, 24);
             matakiri.rotate(badan._centerPosition, matakiri._euler[0], 270f);
-            pupilkanan.createEllipsoid(0.1f, 0.1f, 0.2f, 10.3f, -1f, -0.5f, 72, 24);
+            pupilkanan.createEllipsoid(0.1f, 0.1f, 0.2f, 45.3f, -1f, -0.5f, 72, 24);
             pupilkanan.rotate(badan._centerPosition, pupilkanan._euler[0], 270f);
-            pupilkiri.createEllipsoid(0.1f, 0.1f, 0.2f, 9.7f, -1f, -0.5f, 72, 24);
+            pupilkiri.createEllipsoid(0.1f, 0.1f, 0.2f, 44.7f, -1f, -0.5f, 72, 24);
             pupilkiri.rotate(badan._centerPosition, pupilkiri._euler[0], 270f);
-            mulut.createEllipsoid(0.6f, 0.3f, 0.4f, 10f, 0.8f, 1.4f, 72, 24);
+            mulut.createEllipsoid(0.6f, 0.3f, 0.4f, 45f, 0.8f, 1.4f, 72, 24);
             mulut.rotate(badan._centerPosition, mulut._euler[0], 90f);
-            baju.createCuboid(10, -2.6f, 0, 2, 0.25f, 1.5f);
-            celana.createCuboid(10, -2.975f, 0, 2, 0.5f, 1.5f);
-            kakikanan.createCuboid(-3.5f, -10.5f, 0, 0.5f, 0.5f, 0.5f);
+            baju.createCuboid(45, -2.6f, 0, 2, 0.25f, 1.5f);
+            celana.createCuboid(45, -2.975f, 0, 2, 0.5f, 1.5f);
+            kakikanan.createCuboid(-3.5f, -45.5f, 0, 0.5f, 0.5f, 0.5f);
             kakikanan.rotate(badan._centerPosition, kakikanan._euler[2], 90f);
-            kakikiri.createCuboid(-3.5f, -9.5f, 0, 0.5f, 0.5f, 0.5f);
+            kakikiri.createCuboid(-3.5f, -44.5f, 0, 0.5f, 0.5f, 0.5f);
             kakikiri.rotate(badan._centerPosition, kakikiri._euler[2], 90f);
-            kaoskakikanan.createCuboid(-4.25f, -10.5f, 0, 1, 0.5f, 0.5f);
+            kaoskakikanan.createCuboid(-4.25f, -45.5f, 0, 1, 0.5f, 0.5f);
             kaoskakikanan.rotate(badan._centerPosition, kaoskakikanan._euler[2], 90f);
-            kaoskakikiri.createCuboid(-4.25f, -9.5f, 0, 1, 0.5f, 0.5f);
+            kaoskakikiri.createCuboid(-4.25f, -44.5f, 0, 1, 0.5f, 0.5f);
             kaoskakikiri.rotate(badan._centerPosition, kaoskakikiri._euler[2], 90f);
-            sepatukanan.createCuboid(-5f, -10.5f, 0.25f, 0.5f, 0.5f, 1f);
+            sepatukanan.createCuboid(-5f, -45.5f, 0.25f, 0.5f, 0.5f, 1f);
             sepatukanan.rotate(badan._centerPosition, sepatukanan._euler[2], 90f);
-            sepatukiri.createCuboid(-5f, -9.5f, 0.25f, 0.5f, 0.5f, 1f);
+            sepatukiri.createCuboid(-5f, -44.5f, 0.25f, 0.5f, 0.5f, 1f);
             sepatukiri.rotate(badan._centerPosition, sepatukiri._euler[2], 90f);
-            hidung.createEllipsoid(0.1f, 0.2f, 0.4f, 10, -0.7f, 1f, 72, 24);
+            hidung.createEllipsoid(0.1f, 0.2f, 0.4f, 45, -0.7f, 1f, 72, 24);
 
-            outlinehidung.AddCoords(10, -0.7f, 0.6f);
-            outlinehidung.AddCoords(10, -0.7f, 1.4f);
+            outlinehidung.AddCoords(45, -0.7f, 0.6f);
+            outlinehidung.AddCoords(45, -0.7f, 1.4f);
 
             outlinehidung.Bezier(2);
 
-            outlinehidung2.AddCoords(10, -0.88f, 0.8f);
-            outlinehidung2.AddCoords(10, -0.9f, 0.9f);
-            outlinehidung2.AddCoords(10, -0.9f, 1f);
-            outlinehidung2.AddCoords(10, -0.9f, 1.1f);
-            outlinehidung2.AddCoords(10, -0.9f, 1.2f);
-            outlinehidung2.AddCoords(10, -0.88f, 1.3f);
-            outlinehidung2.AddCoords(10, -0.84f, 1.4f);
-            outlinehidung2.AddCoords(10, -0.76f, 1.4f);
-            outlinehidung2.AddCoords(10, -0.72f, 1.4f);
-            outlinehidung2.AddCoords(10, -0.7f, 1.4f);
+            outlinehidung2.AddCoords(45, -0.88f, 0.8f);
+            outlinehidung2.AddCoords(45, -0.9f, 0.9f);
+            outlinehidung2.AddCoords(45, -0.9f, 1f);
+            outlinehidung2.AddCoords(45, -0.9f, 1.1f);
+            outlinehidung2.AddCoords(45, -0.9f, 1.2f);
+            outlinehidung2.AddCoords(45, -0.88f, 1.3f);
+            outlinehidung2.AddCoords(45, -0.84f, 1.4f);
+            outlinehidung2.AddCoords(45, -0.76f, 1.4f);
+            outlinehidung2.AddCoords(45, -0.72f, 1.4f);
+            outlinehidung2.AddCoords(45, -0.7f, 1.4f);
 
-            outlinehidung2.Bezier(10);
+            outlinehidung2.Bezier(10);  
 
             _object.Add(kubus);
 
@@ -328,48 +328,50 @@ namespace Console1
 
 
             //Gary
-            _object3d[21]= new Asset_3D(new Vector3(1f, 0.5f, 0.54f));
-            _object3d[21].createEllipsoid(2f, 3f, 2.5f, 28f, -8.5f, -.8f, 72, 24); //cangkang
+            _object3d[21] = new Asset_3D(new Vector3(1f, 0.5f, 0.54f));
+            _object3d[21].createEllipsoid(2f, 3f, 2.5f, 28f, -5f, -.8f, 72, 24); //cangkang
             _object3d[21].rotate(_object3d[21]._centerPosition, _object3d[0]._euler[0], 180f);
             _object3d[22] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
-            _object3d[22].createEllipsoid2(2f, 4f, 1f, 28f, 0.0f, 9f, 72, 24); //badan
+            _object3d[22].createEllipsoid2(2f, 4f, 1f, 28f, 0, 5.5f, 72, 24); //badan
             _object3d[22].rotate(_object3d[22]._centerPosition, _object3d[0]._euler[0], 90f);
             _object3d[23] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
-            _object3d[23].createEllipsoid2(0.2f, 1f, 0.2f, 27.5f, -8f, 3f, 72, 24); //batang mata kiri
+            _object3d[23].createEllipsoid2(0.2f, 1f, 0.2f, 27.5f, -4.5f, 3f, 72, 24); //batang mata kiri
             _object3d[24] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
-            _object3d[24].createEllipsoid2(0.2f, 1f, 0.2f, 28.5f, -8f, 3f, 72, 24); //batang mata kanan
+            _object3d[24].createEllipsoid2(0.2f, 1f, 0.2f, 28.5f, -4.5f, 3f, 72, 24); //batang mata kanan
             _object3d[25] = new Asset_3D(new Vector3(1f, 1f, 1f));
-            _object3d[25].createEllipsoid2(0.5f, 0.5f, 0.5f, 28.5f, -7f, 3f, 72, 24); //mata kanan
+            _object3d[25].createEllipsoid2(0.5f, 0.5f, 0.5f, 28.5f, -3.5f, 3f, 72, 24); //mata kanan
             _object3d[26] = new Asset_3D(new Vector3(1f, 1f, 1f));
-            _object3d[26].createEllipsoid2(0.5f, 0.5f, 0.5f, 27.5f, -7f, 3f, 72, 24); //mata kiri
+            _object3d[26].createEllipsoid2(0.5f, 0.5f, 0.5f, 27.5f, -3.5f, 3f, 72, 24); //mata kiri
             _object3d[27] = new Asset_3D(new Vector3(0f, 0f, 0f));
-            _object3d[27].createEllipsoid2(0.2f, 0.2f, 0.2f, 28.5f, -7f, 3.4f, 72, 24); //dalam mata kanan
+            _object3d[27].createEllipsoid2(0.2f, 0.2f, 0.2f, 28.5f, -3.5f, 3.4f, 72, 24); //dalam mata kanan
             _object3d[28] = new Asset_3D(new Vector3(0f, 0f, 0f));
-            _object3d[28].createEllipsoid2(0.2f, 0.2f, 0.2f, 27.5f, -7f, 3.4f, 72, 24); //dalam mata kiri
-
+            _object3d[28].createEllipsoid2(0.2f, 0.2f, 0.2f, 27.5f, -3.5f, 3.4f, 72, 24); //dalam mata kiri
 
             //Environment
             var env = new Asset_3D(new Vector3(0, 0, 0));
             var sand = new Asset_3D(new Vector3(0.761f, 0.698f, 0.502f));
-            sand.createCuboid(0, -6.1f, 0, 50, 0.1f, 100);
+            sand.createCuboid(25, -6.1f, 0, 100, 0.1f, 100);
             var seaL = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
             seaL.createCuboid(20f, 0, 0, 0.1f, 25, 100);
             var seaB = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
-            seaB.createCuboid(0, 0, -35f, 50, 25, 0.1f);
+            seaB.createCuboid(25, 0, -35, 100, 25, 0.1f);
             var seaR = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
-            seaR.createCuboid(-20f, 0, 0 , 0.1f, 25, 100);
+            seaR.createCuboid(-20f, 0, 0, 0.1f, 25, 100);
+            var seaL2 = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
+            seaL2.createCuboid(65, 0, 0, 0.1f, 25, 100);
             _object.Add(env);
             _object[4].child.Add(sand);
             _object[4].child.Add(seaL);
             _object[4].child.Add(seaB);
             _object[4].child.Add(seaR);
+            _object[4].child.Add(seaL2);
 
             //Trial
 
             //var torus = new Asset_3D(new Vector3(0, 0, 0));
             //torus.createTorus(0, 0, 0, 5, 3, 72, 24);
             //_object.Add(torus);
-            
+
 
 
             //for (var i = 0; i < _object.Count; i++)
@@ -437,9 +439,11 @@ namespace Console1
             }
 
             float constanta = 200;
+            float aniP = 3000;
+            float speed = 0.001f;
             if (!pauseP)
             {
-                if (howmanyP < 8000)
+                if (howmanyP < aniP)
                 {
                     howmanyP += 1;
 
@@ -479,10 +483,54 @@ namespace Console1
                         counterP -= 1;
                     }
 
-                    _object[1].translate(0, 0, 0.002f);
+                    _object[1].translate(0, 0, speed * 2);
 
                 }
-                else if (howmanyP >= 8000)
+                else if (howmanyP < aniP * 2) {
+                    howmanyP += 1;
+
+                    if (counterP < constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], 0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], -0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], 0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], -0.075f);
+
+
+                    }
+                    if (counterP > constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], -0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], 0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], -0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], 0.075f);
+
+                    }
+                    if (counterP == 2 * constanta)
+                    {
+                        reverseP = true;
+                    }
+                    if (counterP == 0)
+                    {
+                        reverseP = false;
+                    }
+                    if (!reverseP)
+                    {
+                        counterP += 1;
+                    }
+                    else
+                    {
+                        counterP -= 1;
+                    }
+                    if ((howmanyP >= aniP + 0.1 * aniP) && (howmanyP <= 2 *aniP - 0.1 * aniP)) {
+                        _object[1].translate(-speed, 0, speed);
+                    }
+                    _object[1].rotate(_object[1]._centerPosition, _object[1]._euler[1], 90/aniP);
+
+                }
+                else if (howmanyP < aniP * 3)
                 {
                     howmanyP += 1;
 
@@ -522,10 +570,234 @@ namespace Console1
                         counterP -= 1;
                     }
 
-                    _object[1].translate(0, 0, -0.002f);
+                    _object[1].translate(-speed, 0, 0.000f);
+
+                }
+                else if (howmanyP < aniP * 4)
+                {
+                    howmanyP += 1;
+
+                    if (counterP < constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], 0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], -0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], 0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], -0.075f);
+
+
+                    }
+                    if (counterP > constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], -0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], 0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], -0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], 0.075f);
+
+                    }
+                    if (counterP == 2 * constanta)
+                    {
+                        reverseP = true;
+                    }
+                    if (counterP == 0)
+                    {
+                        reverseP = false;
+                    }
+                    if (!reverseP)
+                    {
+                        counterP += 1;
+                    }
+                    else
+                    {
+                        counterP -= 1;
+                    }
+                    if ((howmanyP >= 3 * aniP + 0.1 * aniP) && (howmanyP <= 4 * aniP - 0.1 * aniP))
+                    {
+                        _object[1].translate(-speed, 0, -speed);
+                    }
+                    _object[1].rotate(_object[1]._centerPosition, _object[1]._euler[1], 90 / aniP);
+
+                }
+                else if (howmanyP < aniP * 5)
+                {
+                    howmanyP += 1;
+
+                    if (counterP < constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], 0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], -0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], 0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], -0.075f);
+
+
+                    }
+                    if (counterP > constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], -0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], 0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], -0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], 0.075f);
+
+                    }
+                    if (counterP == 2 * constanta)
+                    {
+                        reverseP = true;
+                    }
+                    if (counterP == 0)
+                    {
+                        reverseP = false;
+                    }
+                    if (!reverseP)
+                    {
+                        counterP += 1;
+                    }
+                    else
+                    {
+                        counterP -= 1;
+                    }
+
+                    _object[1].translate(0, 0, -speed);
+                }
+                else if (howmanyP < aniP * 6)
+                {
+                    howmanyP += 1;
+
+                    if (counterP < constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], 0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], -0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], 0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], -0.075f);
+
+
+                    }
+                    if (counterP > constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], -0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], 0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], -0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], 0.075f);
+
+                    }
+                    if (counterP == 2 * constanta)
+                    {
+                        reverseP = true;
+                    }
+                    if (counterP == 0)
+                    {
+                        reverseP = false;
+                    }
+                    if (!reverseP)
+                    {
+                        counterP += 1;
+                    }
+                    else
+                    {
+                        counterP -= 1;
+                    }
+                    if ((howmanyP >= 5 * aniP + 0.1 * aniP) && (howmanyP <= 6 * aniP - 0.1 * aniP))
+                    {
+                        _object[1].translate(speed, 0, -speed);
+                    }
+                    _object[1].rotate(_object[1]._centerPosition, _object[1]._euler[1], 90 / aniP);
+
+                }
+                else if (howmanyP < aniP * 7)
+                {
+                    howmanyP += 1;
+
+                    if (counterP < constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], 0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], -0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], 0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], -0.075f);
+
+
+                    }
+                    if (counterP > constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], -0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], 0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], -0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], 0.075f);
+
+                    }
+                    if (counterP == 2 * constanta)
+                    {
+                        reverseP = true;
+                    }
+                    if (counterP == 0)
+                    {
+                        reverseP = false;
+                    }
+                    if (!reverseP)
+                    {
+                        counterP += 1;
+                    }
+                    else
+                    {
+                        counterP -= 1;
+                    }
+
+                    _object[1].translate(speed, 0, 0.000f);
+
+                }
+                else if (howmanyP < aniP * 8)
+                {
+                    howmanyP += 1;
+
+                    if (counterP < constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], 0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], -0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], 0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], -0.075f);
+
+
+                    }
+                    if (counterP > constanta)
+                    {
+                        _object[1].child[2].rotate(_object[1]._centerPosition, _object[1].child[2]._euler[0], -0.03f);
+                        _object[1].child[3].rotate(_object[1]._centerPosition, _object[1].child[3]._euler[0], 0.03f);
+
+                        _object[1].child[5].rotate(_object[1].child[4]._centerPosition, _object[1].child[5]._euler[0], -0.075f);
+                        _object[1].child[6].rotate(_object[1].child[4]._centerPosition, _object[1].child[6]._euler[0], 0.075f);
+
+                    }
+                    if (counterP == 2 * constanta)
+                    {
+                        reverseP = true;
+                    }
+                    if (counterP == 0)
+                    {
+                        reverseP = false;
+                    }
+                    if (!reverseP)
+                    {
+                        counterP += 1;
+                    }
+                    else
+                    {
+                        counterP -= 1;
+                    }
+                    if ((howmanyP >= 7 * aniP + 0.1 * aniP) && (howmanyP <= 8 * aniP - 0.1 * aniP))
+                    {
+                        _object[1].translate(speed, 0, speed);
+                    }
+                    _object[1].rotate(_object[1]._centerPosition, _object[1]._euler[1], 90 / aniP);
+
                 }
 
-                if (howmanyP == 16000)
+                if (howmanyP == 8 * aniP)
                 {
                     howmanyP = 0;
                 }
@@ -634,9 +906,9 @@ namespace Console1
                 if (!invertSpb)
                 {
                     _object[0].child[1].rotate(_object[0].child[0]._centerPosition, _object[0].child[1]._euler[1], 0.1f);
-                    _object[0].child[3].rotate(_object[0].child[0]._centerPosition, _object[0].child[3]._euler[1], 0.01f);
+                    _object[0].child[3].rotate(_object[0].child[0]._centerPosition, _object[0].child[3]._euler[1], 0.003f);
                     _object[0].child[2].rotate(_object[0].child[0]._centerPosition, _object[0].child[2]._euler[1], -0.1f);
-                    _object[0].child[4].rotate(_object[0].child[0]._centerPosition, _object[0].child[4]._euler[1], -0.01f);
+                    _object[0].child[4].rotate(_object[0].child[0]._centerPosition, _object[0].child[4]._euler[1], -0.003f);
                     _object[0].child[13].rotate(_object[0].child[0]._centerPosition, _object[0].child[13]._euler[1], 0.1f);
                     _object[0].child[15].rotate(_object[0].child[0]._centerPosition, _object[0].child[15]._euler[1], 0.1f);
                     _object[0].child[17].rotate(_object[0].child[0]._centerPosition, _object[0].child[17]._euler[1], 0.1f);
@@ -648,9 +920,9 @@ namespace Console1
                 else
                 {
                     _object[0].child[1].rotate(_object[0].child[0]._centerPosition, _object[0].child[1]._euler[1], -0.1f);
-                    _object[0].child[3].rotate(_object[0].child[0]._centerPosition, _object[0].child[3]._euler[1], -0.01f);
+                    _object[0].child[3].rotate(_object[0].child[0]._centerPosition, _object[0].child[3]._euler[1], -0.003f);
                     _object[0].child[2].rotate(_object[0].child[0]._centerPosition, _object[0].child[2]._euler[1], 0.1f);
-                    _object[0].child[4].rotate(_object[0].child[0]._centerPosition, _object[0].child[4]._euler[1], 0.01f);
+                    _object[0].child[4].rotate(_object[0].child[0]._centerPosition, _object[0].child[4]._euler[1], 0.003f);
                     _object[0].child[13].rotate(_object[0].child[0]._centerPosition, _object[0].child[13]._euler[1], -0.1f);
                     _object[0].child[15].rotate(_object[0].child[0]._centerPosition, _object[0].child[15]._euler[1], -0.1f);
                     _object[0].child[17].rotate(_object[0].child[0]._centerPosition, _object[0].child[17]._euler[1], -0.1f);
