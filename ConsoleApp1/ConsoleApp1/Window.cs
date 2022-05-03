@@ -207,19 +207,19 @@ namespace Console1
 
             bellyP.createCuboid(0, -2f, 1.75f, 0.2f, 0.2f, 0.2f);
 
-            alisP.AddCoords(-0.3f, 1.2f, 0.05f);
-            alisP.AddCoords(-0.22f, 1.2f, 0.1f);
-            alisP.AddCoords(-0.15f, 1.2f, 0.15f);
-            alisP.AddCoords(-0.10f, 1.2f, 0.2f);
-            alisP.AddCoords(-0.05f, 1.2f, 0.2f);
+            alisP.AddCoords(-0.3f, 3f, 0.05f);
+            alisP.AddCoords(-0.22f, 3f, 0.1f);
+            alisP.AddCoords(-0.15f, 3f, 0.15f);
+            alisP.AddCoords(-0.10f, 3f, 0.2f);
+            alisP.AddCoords(-0.05f, 3f, 0.2f);
 
             alisP.Bezier(5);
 
-            alis2P.AddCoords(0.3f, 1.2f, 0.05f);
-            alis2P.AddCoords(0.22f, 1.2f, 0.1f);
-            alis2P.AddCoords(0.15f, 1.2f, 0.15f);
-            alis2P.AddCoords(0.10f, 1.2f, 0.2f);
-            alis2P.AddCoords(0.05f, 1.2f, 0.2f);
+            alis2P.AddCoords(0.3f, 3f, 0.05f);
+            alis2P.AddCoords(0.22f, 3f, 0.1f);
+            alis2P.AddCoords(0.15f, 3f, 0.15f);
+            alis2P.AddCoords(0.10f, 3f, 0.2f);
+            alis2P.AddCoords(0.05f, 3f, 0.2f);
 
             alis2P.Bezier(5);
 
@@ -348,15 +348,42 @@ namespace Console1
             _object3d[28].createEllipsoid2(0.2f, 0.2f, 0.2f, 27.5f, -7f, 3.4f, 72, 24); //dalam mata kiri
 
 
+            //Environment
+            var env = new Asset_3D(new Vector3(0, 0, 0));
+            var sand = new Asset_3D(new Vector3(0.761f, 0.698f, 0.502f));
+            sand.createCuboid(0, -6.1f, 0, 50, 0.1f, 100);
+            var seaL = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
+            seaL.createCuboid(20f, 0, 0, 0.1f, 25, 100);
+            var seaB = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
+            seaB.createCuboid(0, 0, -35f, 50, 25, 0.1f);
+            var seaR = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
+            seaR.createCuboid(-20f, 0, 0 , 0.1f, 25, 100);
+            _object.Add(env);
+            _object[4].child.Add(sand);
+            _object[4].child.Add(seaL);
+            _object[4].child.Add(seaB);
+            _object[4].child.Add(seaR);
+
+            //Trial
+
+            //var torus = new Asset_3D(new Vector3(0, 0, 0));
+            //torus.createTorus(0, 0, 0, 5, 3, 72, 24);
+            //_object.Add(torus);
+            
+
+
+            //for (var i = 0; i < _object.Count; i++)
+            //{
+            //    _object[i].resize2();
+            //}
 
 
 
 
-
-            _object[0].resize2();
-            _object[1].resize2();
-            _object[2].resize2();
-            _object[3].resize2();
+            //_object[0].resize2();
+            //_object[1].resize2();
+            //_object[2].resize2();
+            //_object[3].resize2();
             foreach (var i in _object)
             {
                 i.OnLoad(Warna.col + "shader.vert", Warna.col + "shader.frag", Size.X, Size.Y);
@@ -385,6 +412,12 @@ namespace Console1
             _object[1].OnRender(3, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
             _object[2].OnRender(1, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
             _object[3].OnRender(1, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
+
+            _object[4].OnRender(3, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
+
+            //trial
+            //_object[5].OnRender(3, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
+
 
             for (var i=0; i<29; i++)
             {

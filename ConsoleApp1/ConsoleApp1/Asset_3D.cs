@@ -483,6 +483,56 @@ namespace Console1
                 }
             }
         }
+
+        
+        public void createTorus(float x, float y, float z, float outsideRad, float insideRad, float sectorCount, float stackCount)
+        {
+            _centerPosition = new Vector3(x, y, z);
+
+            float pi = (float)Math.PI;
+            Vector3 temp_vector;
+            stackCount *= 2;
+            float sectorStep = 2 * pi / sectorCount;
+            float stackStep = 2 * pi / stackCount;
+            float sectorAngle, stackAngle, tempX, tempY, tempZ;
+
+            for (int i = 0; i <= stackCount; ++i)
+            {
+                stackAngle = pi / 2 - i * stackStep;
+                tempX = outsideRad + insideRad * (float)Math.Cos(stackAngle);
+                tempY = insideRad * (float)Math.Sin(stackAngle);
+                tempZ = outsideRad + insideRad * (float)Math.Cos(stackAngle);
+
+                for (int j = 0; j <= sectorCount; ++j)
+                {
+                    sectorAngle = j * sectorStep;
+
+                    temp_vector.X = x + tempX * (float)Math.Cos(sectorAngle);
+                    temp_vector.Y = y + tempY;
+                    temp_vector.Z = z + tempZ * (float)Math.Sin(sectorAngle);
+
+                    _vertices.Add(temp_vector);
+                }
+            }
+
+            uint k1, k2;
+            for (int i = 0; i < stackCount; ++i)
+            {
+                k1 = (uint)(i * (sectorCount + 1));
+                k2 = (uint)(k1 + sectorCount + 1);
+
+                for (int j = 0; j < sectorCount; ++j, ++k1, ++k2)
+                {
+                    _indices.Add(k1);
+                    _indices.Add(k2);
+                    _indices.Add(k1 + 1);
+
+                    _indices.Add(k1 + 1);
+                    _indices.Add(k2);
+                    _indices.Add(k2 + 1);
+                }
+            }
+        }
         public void resize(float x, float y, float z)
         {
             _model *= Matrix4.CreateScale(x, y, z);
