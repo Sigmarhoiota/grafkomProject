@@ -34,6 +34,7 @@ namespace Console1
         float counterSpb = 0;
         float counterP = 0;
         bool reverseP = false;
+        bool reverseR = false;
         float howmanyP = 0;
         int counterR = 0;
         bool pauseP = false;
@@ -249,80 +250,80 @@ namespace Console1
 
             //Rumah Patrick
             _object3d[0] = new Asset_3D(new Vector3(0.4f, 0.26f, 0.13f));
-            _object3d[0].createEllipsoid(15f, 10f, 10f, 0.0f, -10f, -20f, 72, 24); //rumah batu
-            _object3d[0].rotate(_object3d[0]._centerPosition, _object3d[0]._euler[0], 180f);
+            _object3d[0].createEllipsoid(15f, 10f, 10f, 0.0f, -6f, -20f, 72, 24); //rumah batu
+            _object3d[0].rotate(_object3d[0]._centerPosition, _object3d[0]._euler[2], 180f);
 
             _object3d[1] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[1].createBoxVertices(0, .5f, -20f, 1f); //batang sign
+            _object3d[1].createBoxVertices(0, 4.5f, -20f, 1f); //batang sign
 
             _object3d[2] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[2].createBoxVertices(0, 1.5f, -20f, 1f);//batang sign
+            _object3d[2].createBoxVertices(0, 5.5f, -20f, 1f);//batang sign
 
             _object3d[3] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[3].createBoxVertices(0, 2.5f, -20f, 1f);//batang sign
+            _object3d[3].createBoxVertices(0, 6.5f, -20f, 1f);//batang sign
 
             _object3d[4] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[4].createBoxVertices(0, 3.5f, -20f, 1f);//batang sign
+            _object3d[4].createBoxVertices(0, 7.5f, -20f, 1f);//batang sign
 
             _object3d[5] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[5].createBoxVertices(0, 4.5f, -20f, 1f);//batang sign
+            _object3d[5].createBoxVertices(0, 8.5f, -20f, 1f);//batang sign
 
             _object3d[6] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[6].createCone(-5f, 4.5f, -20f, 1f, 1.5f, 1.5f, 7, 300);//batang sign
+            _object3d[6].createCone(-5f, 8.5f, -20f, 1f, 1.5f, 1.5f, 7, 300);//batang sign
             _object3d[6].rotate(_object3d[6]._centerPosition, _object3d[6]._euler[2], 270f);
 
 
             _object3d[7] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[7].createBoxVertices(-1f, 4.5f, -20f, 1f);//batang sign
+            _object3d[7].createBoxVertices(-1f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[8] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[8].createBoxVertices(-2f, 4.5f, -20f, 1f);//batang sign
+            _object3d[8].createBoxVertices(-2f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[9] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[9].createBoxVertices(-3f, 4.5f, -20f, 1f);//batang sign
+            _object3d[9].createBoxVertices(-3f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[10] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[10].createBoxVertices(1f, 4.5f, -20f, 1f);//batang sign
+            _object3d[10].createBoxVertices(1f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[11] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[11].createBoxVertices(2f, 4.5f, -20f, 1f);//batang sign
+            _object3d[11].createBoxVertices(2f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[12] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[12].createBoxVertices(3f, 4.5f, -20f, 1f);//batang sign
+            _object3d[12].createBoxVertices(3f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[13] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[13].createBoxVertices(1f, 5.5f, -20f, 1f);//batang sign
+            _object3d[13].createBoxVertices(1f, 9.5f, -20f, 1f);//batang sign
 
             _object3d[14] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[14].createBoxVertices(1.5f, 5f, -20f, 1f);//batang sign
+            _object3d[14].createBoxVertices(1.5f, 9f, -20f, 1f);//batang sign
 
             _object3d[15] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[15].createBoxVertices(2.5f, 4f, -20f, 1f);//batang sign
+            _object3d[15].createBoxVertices(2.5f, 8f, -20f, 1f);//batang sign
 
             _object3d[16] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[16].createBoxVertices(3f, 3.5f, -20f, 1f);//batang sign
+            _object3d[16].createBoxVertices(3f, 7.5f, -20f, 1f);//batang sign
 
             _object3d[17] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[17].createBoxVertices(4f, 4.5f, -20f, 1f);//batang sign
+            _object3d[17].createBoxVertices(4f, 8.5f, -20f, 1f);//batang sign
 
             _object3d[18] = new Asset_3D(new Vector3(0.99f, 0.81f, 0.1f));
-            _object3d[18].createBoxVertices(15f, -10.0f, -20f, 0.08f);//katup
+            _object3d[18].createBoxVertices(15f, -6.0f, -20f, 0.08f);//katup
 
             _object3d[19] = new Asset_3D(new Vector3(1f, 0f, 0f)); //X mark
-            _object3d[19].AddCoords(0, -5f , -11.3f);
-            _object3d[19].AddCoords(1, -4.75f, -11.3f);
-            _object3d[19].AddCoords(2, -4.5f, -11.6f);
-            _object3d[19].AddCoords(3, -4.25f, -11.7f);
-            _object3d[19].AddCoords(4, -4f, -12.2f);
+            _object3d[19].AddCoords(0, -1f , -11.3f);
+            _object3d[19].AddCoords(1, -.75f, -11.3f);
+            _object3d[19].AddCoords(2, -.5f, -11.6f);
+            _object3d[19].AddCoords(3, -.25f, -11.7f);
+            _object3d[19].AddCoords(4, 0f, -12.2f);
 
             _object3d[19].Bezier(5);
 
             _object3d[20] = new Asset_3D(new Vector3(1f, 0f, 0f)); //X mark
-            _object3d[20].AddCoords(0, -4f, -12f);
-            _object3d[20].AddCoords(1, -4.25f, -11.7f);
-            _object3d[20].AddCoords(2, -4.5f, -11.6f);
-            _object3d[20].AddCoords(3, -4.75f, -11.3f);
-            _object3d[20].AddCoords(4, -5f, -11.3f);
+            _object3d[20].AddCoords(0, 0f, -12f);
+            _object3d[20].AddCoords(1, -.25f, -11.7f);
+            _object3d[20].AddCoords(2, -.5f, -11.6f);
+            _object3d[20].AddCoords(3, -.75f, -11.3f);
+            _object3d[20].AddCoords(4, -1f, -11.3f);
 
             _object3d[20].Bezier(5);
 
@@ -334,7 +335,7 @@ namespace Console1
             _object3d[21].createEllipsoid(2f, 3f, 2.5f, 28f, -5f, -.8f, 72, 24); //cangkang
             _object3d[21].rotate(_object3d[21]._centerPosition, _object3d[0]._euler[0], 180f);
             _object3d[22] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
-            _object3d[22].createEllipsoid2(2f, 4f, 1f, 28f, 0, 5.5f, 72, 24); //badan
+            _object3d[22].createEllipsoid2(2f, 4f, 1f, 28f, 0, -5.5f, 72, 24); //badan
             _object3d[22].rotate(_object3d[22]._centerPosition, _object3d[0]._euler[0], 90f);
             _object3d[23] = new Asset_3D(new Vector3(0.313f, 0.886f, 0.815f));
             _object3d[23].createEllipsoid2(0.2f, 1f, 0.2f, 27.5f, -4.5f, 3f, 72, 24); //batang mata kiri
@@ -993,33 +994,69 @@ namespace Console1
             //    _object[1].resize(0.9999f, 0.9999f, 0.9999f);
             //}
 
-            if (counterR < 8000 && !pauseP)
+            if (counterR == 6500)
             {
-                
-                _object3d[0].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[1].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[2].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[3].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[4].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[5].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[6].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[7].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[8].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[9].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[10].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[11].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[12].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[13].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[14].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[15].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[16].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[17].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[19].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
-                _object3d[20].rotate(new Vector3(-0.5f, 0.04f, 1f), _object3d[18]._euler[2], 0.01f);
+                reverseR = true;
+            }
+
+            if (counterR == 0)
+            {
+                reverseR = false;
+            }
+
+            if (!reverseR && !pauseP)
+            {
+
+                _object3d[0].rotate(new Vector3(14.8f, -6f, -30f), _object3d[0]._euler[2], -0.01f);
+                _object3d[1].rotate(new Vector3(14.8f, -6f, -30f), _object3d[1]._euler[2], -0.01f);
+                _object3d[2].rotate(new Vector3(14.8f, -6f, -30f), _object3d[2]._euler[2], -0.01f);
+                _object3d[3].rotate(new Vector3(14.8f, -6f, -30f), _object3d[3]._euler[2], -0.01f);
+                _object3d[4].rotate(new Vector3(14.8f, -6f, -30f), _object3d[4]._euler[2], -0.01f);
+                _object3d[5].rotate(new Vector3(14.8f, -6f, -30f), _object3d[5]._euler[2], -0.01f);
+                _object3d[6].rotate(new Vector3(14.8f, -6f, -30f), _object3d[6]._euler[2], -0.01f);
+                _object3d[7].rotate(new Vector3(14.8f, -6f, -30f), _object3d[7]._euler[2], -0.01f);
+                _object3d[8].rotate(new Vector3(14.8f, -6f, -30f), _object3d[8]._euler[2], -0.01f);
+                _object3d[9].rotate(new Vector3(14.8f, -6f, -30f), _object3d[9]._euler[2], -0.01f);
+                _object3d[10].rotate(new Vector3(14.8f, -6f, -30f), _object3d[10]._euler[2], -0.01f);
+                _object3d[11].rotate(new Vector3(14.8f, -6f, -30f), _object3d[11]._euler[2], -0.01f);
+                _object3d[12].rotate(new Vector3(14.8f, -6f, -30f), _object3d[12]._euler[2], -0.01f);
+                _object3d[13].rotate(new Vector3(14.8f, -6f, -30f), _object3d[13]._euler[2], -0.01f);
+                _object3d[14].rotate(new Vector3(14.8f, -6f, -30f), _object3d[14]._euler[2], -0.01f);
+                _object3d[15].rotate(new Vector3(14.8f, -6f, -30f), _object3d[15]._euler[2], -0.01f);
+                _object3d[16].rotate(new Vector3(14.8f, -6f, -30f), _object3d[16]._euler[2], -0.01f);
+                _object3d[17].rotate(new Vector3(14.8f, -6f, -30f), _object3d[17]._euler[2], -0.01f);
+                _object3d[19].rotate(new Vector3(14.8f, -6f, -30f), _object3d[19]._euler[2], -0.01f);
+                _object3d[20].rotate(new Vector3(14.8f, -6f, -30f), _object3d[20]._euler[2], -0.01f);
 
                 counterR++;
             };
 
+            if (reverseR && !pauseP)
+            {
+
+                _object3d[0].rotate(new Vector3(14.8f, -6f, -30f), _object3d[0]._euler[2], 0.01f);
+                _object3d[1].rotate(new Vector3(14.8f, -6f, -30f), _object3d[1]._euler[2], 0.01f);
+                _object3d[2].rotate(new Vector3(14.8f, -6f, -30f), _object3d[2]._euler[2], 0.01f);
+                _object3d[3].rotate(new Vector3(14.8f, -6f, -30f), _object3d[3]._euler[2], 0.01f);
+                _object3d[4].rotate(new Vector3(14.8f, -6f, -30f), _object3d[4]._euler[2], 0.01f);
+                _object3d[5].rotate(new Vector3(14.8f, -6f, -30f), _object3d[5]._euler[2], 0.01f);
+                _object3d[6].rotate(new Vector3(14.8f, -6f, -30f), _object3d[6]._euler[2], 0.01f);
+                _object3d[7].rotate(new Vector3(14.8f, -6f, -30f), _object3d[7]._euler[2], 0.01f);
+                _object3d[8].rotate(new Vector3(14.8f, -6f, -30f), _object3d[8]._euler[2], 0.01f);
+                _object3d[9].rotate(new Vector3(14.8f, -6f, -30f), _object3d[9]._euler[2], 0.01f);
+                _object3d[10].rotate(new Vector3(14.8f, -6f, -30f), _object3d[10]._euler[2], 0.01f);
+                _object3d[11].rotate(new Vector3(14.8f, -6f, -30f), _object3d[11]._euler[2], 0.01f);
+                _object3d[12].rotate(new Vector3(14.8f, -6f, -30f), _object3d[12]._euler[2], 0.01f);
+                _object3d[13].rotate(new Vector3(14.8f, -6f, -30f), _object3d[13]._euler[2], 0.01f);
+                _object3d[14].rotate(new Vector3(14.8f, -6f, -30f), _object3d[14]._euler[2], 0.01f);
+                _object3d[15].rotate(new Vector3(14.8f, -6f, -30f), _object3d[15]._euler[2], 0.01f);
+                _object3d[16].rotate(new Vector3(14.8f, -6f, -30f), _object3d[16]._euler[2], 0.01f);
+                _object3d[17].rotate(new Vector3(14.8f, -6f, -30f), _object3d[17]._euler[2], 0.01f);
+                _object3d[19].rotate(new Vector3(14.8f, -6f, -30f), _object3d[19]._euler[2], 0.01f);
+                _object3d[20].rotate(new Vector3(14.8f, -6f, -30f), _object3d[20]._euler[2], 0.01f);
+
+                counterR--;
+            };
             SwapBuffers();
         }
 
