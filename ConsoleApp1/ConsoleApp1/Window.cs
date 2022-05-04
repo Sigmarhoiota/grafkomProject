@@ -31,11 +31,13 @@ namespace Console1
         float countSpb = 0;
         bool invertSpb = false;
         float walkSpb = 0;
+        float counterSpb = 0;
         float counterP = 0;
         bool reverseP = false;
         float howmanyP = 0;
         int counterR = 0;
         bool pauseP = false;
+
         public Window(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings) : base(gameWindowSettings, nativeWindowSettings)
         {
         }
@@ -352,13 +354,80 @@ namespace Console1
             var sand = new Asset_3D(new Vector3(0.761f, 0.698f, 0.502f));
             sand.createCuboid(25, -6.1f, 0, 100, 0.1f, 100);
             var seaL = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
-            seaL.createCuboid(20f, 0, 0, 0.1f, 25, 100);
+            seaL.createCuboid(25f, 0, 0, 0.1f, 25, 100);
             var seaB = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
             seaB.createCuboid(25, 0, -35, 100, 25, 0.1f);
             var seaR = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
-            seaR.createCuboid(-20f, 0, 0, 0.1f, 25, 100);
+            seaR.createCuboid(-25f, 0, 0, 0.1f, 25, 100);
             var seaL2 = new Asset_3D(new Vector3(0, 0.412f, 0.58f));
             seaL2.createCuboid(65, 0, 0, 0.1f, 25, 100);
+
+            var RoadSign = new Asset_3D(new Vector3(0.96f, 0.96f, 0.96f));
+            RoadSign.createCuboid(-24.8f, 2f, -10f, 0.2f, 5, 22);
+            var Gate = new Asset_3D(new Vector3(1, 1, 0f));
+
+ 
+
+
+            var merah = new Asset_3D(new Vector3(1, 0, 0));
+            merah.createEllipsoid2(1, 1, 1, -24.5f, 2f, -1f, 72, 24);
+
+            var jingga = new Asset_3D(new Vector3(1, 0.647f, 0));
+            jingga.createEllipsoid2(1, 1, 1, -24.5f, 2f, -4f, 72, 24);
+
+            var kuning = new Asset_3D(new Vector3(1, 1, 0));
+            kuning.createEllipsoid2(1, 1, 1, -24.5f, 2f, -7f, 72, 24);
+
+            var hijau = new Asset_3D(new Vector3(0, 1, 0));
+            hijau.createEllipsoid2(1, 1, 1, -24.5f, 2f, -10f, 72, 24);
+
+            var biru = new Asset_3D(new Vector3(0, 0, 1));
+            biru.createEllipsoid2(1, 1, 1, -24.5f, 2f, -13f, 72, 24);
+
+            var nila = new Asset_3D(new Vector3(0.576f, 0.25f, 1f));
+            nila.createEllipsoid2(1, 1, 1, -24.5f, 2f, -16f, 72, 24);
+
+            var ungu = new Asset_3D(new Vector3(0.294f, 0, 0.5f));
+            ungu.createEllipsoid2(1, 1, 1, -24.5f, 2f, -19f, 72, 24);
+
+
+
+
+
+            Gate.createTorus(0f, -2, 10f, 18f, 5f, 72, 24);
+            Gate.rotate(Gate._centerPosition, Gate._euler[0], 90);
+
+
+            var lifebuoyPattern1 = new Asset_3D(new Vector3(0.435f, 0.1137f, 0.8627f));
+            lifebuoyPattern1.createTube(13.2f, 1.51f, 0.35f, 0.8f, 72, 24);
+            lifebuoyPattern1.rotate(lifebuoyPattern1._centerPosition, lifebuoyPattern1._euler[2], 45);
+            lifebuoyPattern1.rotate(lifebuoyPattern1._centerPosition, lifebuoyPattern1._euler[0], -7);
+
+            var lifebuoyPattern2 = new Asset_3D(new Vector3(0.435f, 0.1137f, 0.8627f));
+            lifebuoyPattern2.createTube(10.8f, 1.51f, -0.35f, 0.8f, 72, 24);
+            lifebuoyPattern2.rotate(lifebuoyPattern2._centerPosition, lifebuoyPattern2._euler[2], -45);
+            lifebuoyPattern2.rotate(lifebuoyPattern2._centerPosition, lifebuoyPattern2._euler[0], 8);
+
+            var lifebuoyPattern3 = new Asset_3D(new Vector3(0.435f, 0.1137f, 0.8627f));
+            lifebuoyPattern3.createTube(13.2f, -1.51f, 0.35f, 0.8f, 72, 24);
+            lifebuoyPattern3.rotate(lifebuoyPattern3._centerPosition, lifebuoyPattern3._euler[2], -45);
+            lifebuoyPattern3.rotate(lifebuoyPattern3._centerPosition, lifebuoyPattern3._euler[0], 7);
+
+            var lifebuoyPattern4 = new Asset_3D(new Vector3(0.435f, 0.1137f, 0.8627f));
+            lifebuoyPattern4.createTube(10.8f, -1.51f, -0.35f, 0.8f, 72, 24);
+            lifebuoyPattern4.rotate(lifebuoyPattern4._centerPosition, lifebuoyPattern4._euler[2], 45);
+            lifebuoyPattern4.rotate(lifebuoyPattern4._centerPosition, lifebuoyPattern4._euler[0], -8);
+
+
+            var lifebuoy = new Asset_3D(new Vector3(1, 0, 0));
+            lifebuoy.createTorus(12, 0, 0, 2f, 0.75f, 72, 24);
+            lifebuoy.rotate(lifebuoy._centerPosition, lifebuoy._euler[0], 90);
+            lifebuoy.rotate(lifebuoy._centerPosition, lifebuoy._euler[2], 15);
+
+            var stickLifebuoy = new Asset_3D(new Vector3(0.647f, 0.1647f, 0.1647f));
+            stickLifebuoy.rotate(stickLifebuoy._centerPosition, stickLifebuoy._euler[2], 15);
+            stickLifebuoy.createCuboid(11.75f, -8f, 0, 0.5f, 6f, 0.5f);
+
             _object.Add(env);
             _object[4].child.Add(sand);
             _object[4].child.Add(seaL);
@@ -366,12 +435,57 @@ namespace Console1
             _object[4].child.Add(seaR);
             _object[4].child.Add(seaL2);
 
+
+            _object[4].child.Add(RoadSign);
+            _object[4].child.Add(merah);
+            _object[4].child.Add(jingga);
+            _object[4].child.Add(kuning);
+            _object[4].child.Add(hijau);
+            _object[4].child.Add(biru);
+            _object[4].child.Add(nila);
+            _object[4].child.Add(ungu);
+
+
+
+            //_object[4].child.Add(W1);
+            //_object[4].child.Add(W2);
+            //_object[4].child.Add(W3);
+            //_object[4].child.Add(W4);
+
+            //_object[4].child.Add(E1);
+            //_object[4].child.Add(E2);
+            //_object[4].child.Add(E3);
+            //_object[4].child.Add(E4);
+
+
+
+
+            _object[4].child.Add(Gate);
+
+            _object[4].child.Add(lifebuoyPattern1);
+            _object[4].child.Add(lifebuoyPattern2);
+            _object[4].child.Add(lifebuoyPattern3);
+            _object[4].child.Add(lifebuoyPattern4);
+            _object[4].child.Add(lifebuoy);
+            _object[4].child.Add(stickLifebuoy);
+
+            
+
+
+
+
+
+
+
             //Trial
 
             //var torus = new Asset_3D(new Vector3(0, 0, 0));
             //torus.createTorus(0, 0, 0, 5, 3, 72, 24);
             //_object.Add(torus);
 
+            //var cylinder = new Asset_3D(new Vector3(0, 0, 0));
+            //cylinder.createTube(0, 0, 0, 5, 72, 24);
+            //_object.Add(cylinder);
 
 
             //for (var i = 0; i < _object.Count; i++)
@@ -436,6 +550,70 @@ namespace Console1
                     _object3d[i].OnRender(3, _camera.GetViewMatrix(), _camera.GetProjectionMatrix());
                 }
                 _object3d[i].resetEuler();
+            }
+
+            if (!invertSpb)
+            {
+                _object[0].child[1].rotate(_object[0].child[0]._centerPosition, _object[0].child[1]._euler[1], 0.1f);
+                _object[0].child[3].rotate(_object[0].child[0]._centerPosition, _object[0].child[3]._euler[1], 0.003f);
+                _object[0].child[2].rotate(_object[0].child[0]._centerPosition, _object[0].child[2]._euler[1], -0.1f);
+                _object[0].child[4].rotate(_object[0].child[0]._centerPosition, _object[0].child[4]._euler[1], -0.003f);
+                _object[0].child[13].rotate(_object[0].child[0]._centerPosition, _object[0].child[13]._euler[1], 0.1f);
+                _object[0].child[15].rotate(_object[0].child[0]._centerPosition, _object[0].child[15]._euler[1], 0.1f);
+                _object[0].child[17].rotate(_object[0].child[0]._centerPosition, _object[0].child[17]._euler[1], 0.1f);
+                _object[0].child[12].rotate(_object[0].child[0]._centerPosition, _object[0].child[12]._euler[1], -0.1f);
+                _object[0].child[14].rotate(_object[0].child[0]._centerPosition, _object[0].child[14]._euler[1], -0.1f);
+                _object[0].child[16].rotate(_object[0].child[0]._centerPosition, _object[0].child[16]._euler[1], -0.1f);
+                countSpb++;
+            }
+            else
+            {
+                _object[0].child[1].rotate(_object[0].child[0]._centerPosition, _object[0].child[1]._euler[1], -0.1f);
+                _object[0].child[3].rotate(_object[0].child[0]._centerPosition, _object[0].child[3]._euler[1], -0.003f);
+                _object[0].child[2].rotate(_object[0].child[0]._centerPosition, _object[0].child[2]._euler[1], 0.1f);
+                _object[0].child[4].rotate(_object[0].child[0]._centerPosition, _object[0].child[4]._euler[1], 0.003f);
+                _object[0].child[13].rotate(_object[0].child[0]._centerPosition, _object[0].child[13]._euler[1], -0.1f);
+                _object[0].child[15].rotate(_object[0].child[0]._centerPosition, _object[0].child[15]._euler[1], -0.1f);
+                _object[0].child[17].rotate(_object[0].child[0]._centerPosition, _object[0].child[17]._euler[1], -0.1f);
+                _object[0].child[12].rotate(_object[0].child[0]._centerPosition, _object[0].child[12]._euler[1], 0.1f);
+                _object[0].child[14].rotate(_object[0].child[0]._centerPosition, _object[0].child[14]._euler[1], 0.1f);
+                _object[0].child[16].rotate(_object[0].child[0]._centerPosition, _object[0].child[16]._euler[1], 0.1f);
+                countSpb--;
+            }
+            if (countSpb == 100)
+            {
+                invertSpb = true;
+            }
+            else if (countSpb == -100)
+            {
+                invertSpb = false;
+            }
+
+            if (walkSpb == 0)
+            {
+                _object[0].translate(0, 0, 0.01f);
+                for (int i = 21; i <= 28; i++)
+                {
+                    _object3d[i].translate(0, 0, 0.01f);
+                }
+                counterSpb++;
+            }
+            else if (walkSpb == 1)
+            {
+                _object[0].translate(0, 0, -0.01f);
+                for (int i = 21; i <= 28; i++)
+                {
+                    _object3d[i].translate(0, 0, -0.01f);
+                }
+                counterSpb--;
+            }
+            if (counterSpb == 200)
+            {
+                walkSpb = 1;
+            }
+            else if (counterSpb == 0)
+            {
+                walkSpb = 0;
             }
 
             float constanta = 200;
@@ -848,7 +1026,6 @@ namespace Console1
         protected override void OnResize(ResizeEventArgs e)
         {
             base.OnResize(e);
-            Console.WriteLine("ini Resize");
             GL.Viewport(0, 0, Size.X, Size.Y);
             _camera.AspectRatio = Size.X / (float)Size.Y;
         }
@@ -930,7 +1107,7 @@ namespace Console1
                     _object[0].child[14].rotate(_object[0].child[0]._centerPosition, _object[0].child[14]._euler[1], 0.1f);
                     _object[0].child[16].rotate(_object[0].child[0]._centerPosition, _object[0].child[16]._euler[1], 0.1f);
                     countSpb--;
-                }
+                }   
                 if (countSpb == 100)
                 {
                     invertSpb = true;
