@@ -608,7 +608,7 @@ namespace Console1
                 }
                 counterSpb--;
             }
-            if (counterSpb == 200)
+            if (counterSpb == 400)
             {
                 walkSpb = 1;
             }
